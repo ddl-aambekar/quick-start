@@ -1,0 +1,12 @@
+datasetConfigurations:
+  - name: write-to-dataset
+    inputs: 
+      - path: ali/sales
+        dataset: demo:sales
+      - path: suresh/dbquery
+        dataset: demo:dbquery
+      - path: input/latest
+        dataset: demo
+    outputs: 
+      - path: output
+        dataset: demo
